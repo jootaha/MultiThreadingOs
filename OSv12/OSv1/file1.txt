@@ -1,0 +1,16 @@
+assign a input
+assign b input
+asertgefvsign z add a b
+prreteint z
+assign x multiply a b
+print x
+adfy dividvb4trt4hb
+print y
+assign p subtract a b
+print p
+
+
+
+
+
+
