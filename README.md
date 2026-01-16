@@ -50,31 +50,6 @@ print c
 - **Java**: JDK 22 or higher.
 - **Maven**: For dependency management and building.
 
-## Setup & Usage
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. **Configure File Paths**
-   > **Note**: The file paths in `src/main/java/org/example/Main.java` are currently hardcoded. You **must** update them to match the location of your program text files (`file1.txt`, `Program_2.txt`, `Program_3.txt`) on your machine.
-
-   Open `Main.java` and update the paths:
-   ```java
-   Process p = new Process("absolute/path/to/file1.txt");
-   // ... update other process paths
-   ```
-
-3. **Build the Project**
-   ```bash
-   mvn clean install
-   ```
-
-4. **Run the Simulator**
-   Run the `org.example.Main` class. You can do this via your IDE or command line.
-
-   During execution, the console will prompt for input if a process executes an `assign ... input` instruction.
-
 ## Scheduling Demonstration
 The `Main` class demonstrates different scheduling scenarios:
 1. **Shortest Job First**: Runs `ShortestJobFirst()`.
